@@ -443,16 +443,6 @@ nav li {
     font-size: 30px;
     margin-right: 40px;
 }
-/*nav a {
-    color: #fff;
-    display: inline-block;
-    margin-left: 3.5rem;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    text-decoration: none;
-    line-height: 40px;
-}*/
 
 nav li a {
     font-size: 2.7rem;
@@ -474,13 +464,53 @@ nav a#pull {
 }
 
 .banner {
-  background-color: #000000;
-  opacity: 0.8;
+  /*background-color: #000000;*/
+  /*opacity: 0.8;*/
+    background-image: url("http://www.losaltoshacks.com/img/header.jpg");
   text-align: center;
+  height: 400px;
 
 }
+
 #banner-title {
   text-align: center;
+  padding-top: 10%;
+
+}
+
+#banner-text {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.subinfo {
+  color: #000000;
+  margin-top: 30px;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+    text-align: center;
+}
+.col-content {
+    margin: 4rem auto;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
 }
 
 /* Larger than mobile */
