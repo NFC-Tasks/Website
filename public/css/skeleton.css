@@ -476,6 +476,11 @@ nav a#pull {
 .banner {
   background-color: #000000;
   opacity: 0.8;
+  text-align: center;
+
+}
+#banner-title {
+  text-align: center;
 }
 
 /* Larger than mobile */
