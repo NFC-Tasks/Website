@@ -1,0 +1,9 @@
+{
+  "firebase": "nfc-tasks",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
