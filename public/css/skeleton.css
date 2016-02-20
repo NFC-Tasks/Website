@@ -59,6 +59,9 @@
   .columns:first-child {
     margin-left: 0; }
 
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,600);
+
+
   .one.column,
   .one.columns                    { width: 4.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
@@ -466,7 +469,8 @@ nav a#pull {
 .banner {
   /*background-color: #000000;*/
   /*opacity: 0.8;*/
-    background-image: url("http://www.losaltoshacks.com/img/header.jpg");
+  background-image: url("http://www.losaltoshacks.com/img/header.jpg");
+  background-size: cover;
   text-align: center;
   height: 400px;
 
@@ -516,6 +520,26 @@ nav a#pull {
 }
 .span_1_of_2 {
 	width: 49.2%;
+}
+
+footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FFE641;
+
+}
+
+footer a:hover {
+  color: #FFE641;
+  opacity: 0.8;
+
 }
 
 /* Larger than mobile */
