@@ -555,7 +555,9 @@ footer a:hover {
   text-align: center;
 
 }
-
+.pics {
+  display: inline;
+}
 #pic {
   max-height: 215px;
   border-radius: 50%;
