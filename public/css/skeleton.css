@@ -523,6 +523,7 @@ nav a#pull {
 	width: 49.2%;
 }
 
+
 footer {
   background-color: #000000;
   color: #FFFFFF;
@@ -541,6 +542,38 @@ footer a:hover {
   color: #FFE641;
   opacity: 0.8;
 
+}
+
+#about-us {
+  text-align: center;
+}
+
+.pictures {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+#pic {
+  max-height: 215px;
+  border-radius: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: inline-block;
+}
+
+.names-descrip {
+  display: inline-block;
+  text-align: center;
+
+}
+
+.name-pic {
+  display: inline;
+  margin-left: 114px;
+  margin-right: 114px;
 }
 
 /* Larger than mobile */
