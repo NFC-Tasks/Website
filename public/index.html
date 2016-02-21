@@ -36,14 +36,14 @@
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <section id="hero">
         <div class="layer">
-            <nav class="clearfix transparent">
+            <!-- <nav class="clearfix transparent"> -->
                 <!-- <a class="logo" href="#">NFC Tags</a> -->
-                <ul class="clearfix">
+                <!-- <ul class="clearfix">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Placeholder</a></li>
                 </ul>
-                <a href="#" id="pull"></a>
-            </nav>
+                <a href="#" id="pull"></a> -->
+            <!-- </nav> -->
 
             <div class="banner">
                 <!-- Banner Title -->
@@ -55,17 +55,12 @@
             <div class = "subinfo1">
               <div class="col span_1_of_2">
                 <p id=banner-text>
-                  Post-ironic heirloom bespoke, plaid kogi selvage sriracha semiotics map shabby chic ennui chambray taxidermy irony whatever. Meh hashtag VHS godard. Fashion axe disrupt sustainable plaid. Skateboard DIY sartorial, pickled kitsch seitan occupy hammock cold-pressed. Photo booth ugh synth, street art letterpress cray tofu kogi skateboard meditation salvia stumptown austin readymade franzen. Cred synth crucifix, pop-up venmo fap meditation beard retro skateboard. Food truck bitters farm-to-table ramps irony vegan beard.
-
-                  Normcore ugh etsy fixie, ethical dreamcatcher slow-carb pour-over selvage vice authentic affogato roof party four loko. Pop-up craft beer disrupt letterpress. Bushwick godard +1 selfies, fingerstache distillery art party yr authentic butcher fixie banjo mixtape ramps meditation. IPhone fashion axe whatever, synth fixie lomo next level pitchfork messenger bag flexitarian chia schlitz. Flannel slow-carb chillwave truffaut kinfolk, selvage tousled sriracha. Meditation DIY seitan fingerstache chartreuse pour-over 3 wolf moon kogi, authentic VHS narwhal pug. Tofu asymmetrical stumptown beard single-origin coffee post-ironic photo booth, taxidermy health goth fixie.
-
-                  Neutra 90's mixtape, chia gochujang cardigan banjo. Neutra jean shorts keffiyeh, deep v chambray meggings pop-up messenger bag small batch. Marfa whatever tattooed, twee vegan art party 90's post-ironic dreamcatcher. Bespoke franzen YOLO, yr chambray shoreditch echo park 3 wolf moon fashion axe meditation selfies organic narwhal deep v gluten-free. Hammock VHS drinking vinegar wolf 3 wolf moon, helvetica hashtag. Pork belly plaid chicharrones shabby chic, occupy helvetica poutine tote bag celiac deep v locavore sriracha hoodie. Freegan viral vice, letterpress austin cornhole microdosing messenger bag.
-
-                  Vice celiac vegan kitsch fanny pack letterpress. Pour-over jean shorts pop-up, intelligentsia mustache celiac kickstarter echo park 3 wolf moon tumblr food truck ethical cliche DIY.
+                  We're using NFC (near field communication) tags and an Android phone to facilitate easy task automation. By putting down a phone on the NFC tag (attached to the car/object in question), the app detects the tag and performs a series of actions that it's programmed to do.  For example, on the car, it detects the temperature outside, and adjusts a Nest thermostat inside the house to an appropriate temperature.  In addition to that, it starts Google Maps and uses your location to navigate you home.
                 </p>
               </div>
               <div class="col span_1_of_2">
-                <img src="img/placeholder.png">
+              </br>
+                <img id = "text-pic" src="img/screenshot1.png">
               </div>
             </div>
           </div>
@@ -76,18 +71,23 @@
           </div>
 
           <div class="subinfo2">
-            <div class="col span_1_of_2">
-              <img src="img/placeholder2.png">
+            <div class="col span_1_of_2" id="video-div">
+              <video height="600px" autoplay>
+                <source src="img/vid.mp4" type="video/mp4">
+              </video>
+              <!-- <img src="img/vid.mp4"> -->
             </div>
             <div class="col span_1_of_2">
-              <p id=banner-text>
-                Post-ironic heirloom bespoke, plaid kogi selvage sriracha semiotics map shabby chic ennui chambray taxidermy irony whatever. Meh hashtag VHS godard. Fashion axe disrupt sustainable plaid. Skateboard DIY sartorial, pickled kitsch seitan occupy hammock cold-pressed. Photo booth ugh synth, street art letterpress cray tofu kogi skateboard meditation salvia stumptown austin readymade franzen. Cred synth crucifix, pop-up venmo fap meditation beard retro skateboard. Food truck bitters farm-to-table ramps irony vegan beard.
+              <p id=banner-text2>
+                Here's a video of our app in action. It first has you select the "car," which is the object to which our NFC tag is attached to. It then prompts you to put your phone on the tag attached to your car, as it'll trigger the scan and start the actions.
+</br>
+                "Preparing the tasks" triggers a detection of the outside temperature, and adjusts the Nest thermostat inside your house accordingly.  Then, the app starts a Google maps navigation and helps you get directions to get home.
+</br>
+</br>
+</br>
+</br>
 
-                Sustainable 8-bit hella, semiotics letterpress organic fingerstache leggings godard typewriter tattooed heirloom dreamcatcher kombucha. Heirloom meditation listicle biodiesel chillwave franzen. YOLO umami seitan pug, synth beard tacos shabby chic narwhal vinyl 8-bit pitchfork. Ugh flannel craft beer, put a bird on it butcher tilde quinoa godard pug tote bag meditation. Roof party man bun yr whatever selfies. Four loko craft beer mumblecore cred, kitsch truffaut bushwick yr keffiyeh austin chia offal. Cliche tattooed farm-to-table banh mi.
 
-                Selvage quinoa gentrify everyday carry. Squid chia fap thundercats. Man bun blue bottle cornhole pop-up, leggings vice occupy gentrify four loko scenester. Kogi mlkshk vice poutine man bun vinyl. Fingerstache umami affogato chicharrones distillery, pug schlitz chia slow-carb lumbersexual brunch scenester. Street art try-hard gastropub stumptown mustache, chillwave deep v ennui brooklyn waistcoat post-ironic humblebrag godard swag food truck. Man braid migas flannel heirloom blue bottle post-ironic tilde, retro single-origin coffee flexitarian waistcoat brunch.
-
-                Marfa assumenda +1 intelligentsia, ullamco plaid polaroid irure selfies. Meditation brooklyn cornhole, sustainable health goth minim thundercats. Eiusmod chartreuse art party, nesciunt narwhal duis pour-over sint sriracha chambray vinyl sartorial cold-pressed culpa ut. Nisi fingerstache microdosing pug.
               </p>
           </div>
         </div>
@@ -98,7 +98,7 @@
     </section>
 
     <section id="about-us">
-      <h2>About Us</h2>
+      <h2>Meet the Team</h2>
       <div class="pics">
         <div class="pictures">
           <img src="img/adam.jpg" id="pic">

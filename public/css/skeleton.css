@@ -483,9 +483,20 @@ nav a#pull {
 
 }
 
-#banner-text {
-  margin-left: 30px;
-  margin-right: 30px;
+#banner-text  {
+  margin-left: 50px;
+  margin-right: 20px;
+  font-size: 25px;
+  margin-top: 80px;
+
+}
+
+#banner-text2  {
+  margin-left: 40px;
+  margin-right: 90px;
+  font-size: 25px;
+  margin-top: 80px;
+
 }
 
 .subinfo1 {
@@ -555,6 +566,10 @@ footer a:hover {
   text-align: center;
 
 }
+
+#text-pic {
+  max-height: 600px;
+}
 .pics {
   display: inline;
 }
@@ -566,6 +581,10 @@ footer a:hover {
   display: inline-block;
 }
 
+#video-div {
+  margin-top: 60px;
+}
+
 .names-descrip {
   display: inline-block;
   text-align: center;
@@ -574,7 +593,7 @@ footer a:hover {
 
 .name-pic {
   display: inline;
-  margin-left: 114px;
+  margin-left: 110px;
   margin-right: 114px;
 }
 
